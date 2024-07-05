@@ -43,7 +43,8 @@ $('.our-values-carousel').owlCarousel({
     loop:true,
     margin:30,
     nav:true,
-    autoplay:4000,
+    autoplay:true,
+    autoplayTimeout:6000,
     dots:false,
     responsive:{
         0:{
